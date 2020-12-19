@@ -2,3 +2,34 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  margin: 8px;
+  background-color: #14213d;
+  color: #a2d2ff;
+}
+
+button:focus {
+  outline: silver;
+}
+
+.book-list {
+  list-style: "none";
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
+
+.genre-button {
+  cursor: "pointer";
+  background-color: #a2d2ff;
+  border-radius: 0.8rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid silver;
+  margin: 1rem 0.3rem;
+  color: #013a63;
+  font-size: medium;
+  font-weight: auto;
+}
