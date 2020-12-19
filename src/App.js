@@ -71,12 +71,11 @@ export default function App() {
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {booksDictionary[genreInput].map((book) => (
-            <li>
-              <div> key={book.name} className="book-list"</div>
+            <li className="book-list">
+              <div className="book-name">{book.name}</div>
 
-              <img src={book.imgLink} alt="book-cover" />
-
-              <div style={{ fontSize: "smaller" }}> {book.rating} </div>
+              <img className="image-book" src={book.imgLink} alt="book-cover" />
+              <div className="book-rating">rating:{book.rating}</div>
             </li>
           ))}
         </ul>

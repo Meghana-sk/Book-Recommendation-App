@@ -13,13 +13,34 @@ button:focus {
   outline: silver;
 }
 
-.book-list {
+.book-name {
   list-style: "none";
   padding: 1rem;
-  border: 1px solid #d1d5db;
+  border: none;
   width: 70%;
   margin: 1rem 0rem;
   border-radius: 0.5rem;
+  font-size: larger;
+  color: #faf9f9;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-rating {
+  font-size: small;
+  color: #faf9f9;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-book {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .genre-button {
