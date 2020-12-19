@@ -61,7 +61,7 @@ export default function App() {
       <h1>Must Read Books</h1>
 
       <div>
-        {Object.keys(booksDictionary).map((genre) => (
+        {booksWeHave.map((genre) => (
           <button className="genre-button" onClick={() => genreHandler(genre)}>
             {genre}
           </button>
