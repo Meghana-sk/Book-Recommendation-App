@@ -54,3 +54,8 @@ button:focus {
   font-size: medium;
   font-weight: auto;
 }
+
+.book-description {
+  width: 50%;
+  margin: auto;
+}
